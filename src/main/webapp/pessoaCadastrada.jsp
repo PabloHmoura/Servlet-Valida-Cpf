@@ -12,7 +12,8 @@
 </head>
 <body>
     <div align="center">
-        <h3 >${nome} dono do CPF ${cpf} cadatrado com sucesso</h3>
+        <h3 >${nome}, CPF ${cpf} cadatrado com sucesso</h3>
+        <p><a href="index.jsp">Clique aqui para fazer o login</a></p>
     </div>
 </body>
 </html>

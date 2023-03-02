@@ -15,8 +15,7 @@ public class MetodosAuxiliares {
     }
 
     public static boolean contemCpf(String cpf) {
-        return listaCpf.stream().map(Pessoa::getCpf).findFirst().equals(cpf);
-
+        return listaCpf.stream().anyMatch(pessoa -> pessoa.getCpf().equals(cpf));
     }
 
     public static Pessoa retornaPessoa(String cpf) {
