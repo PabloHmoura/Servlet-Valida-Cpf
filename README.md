@@ -3,7 +3,7 @@
 
 Esse projeto foi desenvolvido utilizando Jakarta EE + TOMCAT 10.1.5.
 
-Nesse projeto existe é possível fazer um cadastro utilizando e-mail e um CPF válido e login a partir do CPF.
+Nesse projeto é possível fazer um cadastro utilizando e-mail e um CPF válido e login a partir do CPF já cadastrado.
 
 Após passar da tela de login é possível visualizar a tela a seguir que solicita Nome e CPF para cadastrar um cliente. Esses Clientes são armazenados em um banco em memória que é criado por sessão.
 
